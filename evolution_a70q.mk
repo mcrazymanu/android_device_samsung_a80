@@ -13,21 +13,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from a70q device
 $(call inherit-product, device/samsung/a70q/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Evolution X stuff.
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_a70q
+PRODUCT_NAME := evolution_a70q
 PRODUCT_DEVICE := a70q
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A705
 PRODUCT_MANUFACTURER := samsung
-
-BUILD_FINGERPRINT := "samsung/a70qxx/a70q:11/RP1A.200720.012/A705FNXXU5DVE3:user/release-keys"
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="a70qxx-user 11 RP1A.200720.012 A705FNXXU5DVE3 release-keys" \
-    PRODUCT_NAME="a70q" \
-    TARGET_DEVICE="a70q"
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
