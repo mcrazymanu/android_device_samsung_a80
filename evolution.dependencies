@@ -6,5 +6,12 @@
   {
     "repository": "android_kernel_samsung_sm6150",
     "target_path": "kernel/samsung/sm6150"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "kdrag0n/proton-clang",
+    "branch"      : "master",
+    "clone-depth" : "1",
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-proton"
   }
 ]
