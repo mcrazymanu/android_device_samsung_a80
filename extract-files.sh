@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=a70q
+DEVICE=a80
 VENDOR=samsung
 
 # Load extract_utils and do some sanity checks
