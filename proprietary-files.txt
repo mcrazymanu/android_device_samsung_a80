@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung firmware version A705FNXXU5DVE3
+# Proprietary files - from Samsung firmware version A805FXXU6DVF1
 
 # ADSP
 vendor/bin/adsprpcd
