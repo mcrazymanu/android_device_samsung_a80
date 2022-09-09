@@ -9,7 +9,7 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 BOARD_VENDOR := samsung
 
-DEVICE_PATH := device/samsung/a70q
+DEVICE_PATH := device/samsung/a80
 
 # Architecture
 TARGET_ARCH := arm64
@@ -62,8 +62,8 @@ BOARD_MKBOOTIMG_ARGS     := --kernel_offset $(BOARD_KERNEL_OFFSET) --ramdisk_off
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/samsung/a70q
-TARGET_KERNEL_CONFIG := a70q_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/a80
+TARGET_KERNEL_CONFIG := a80_defconfig
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CLANG_COMPILE := true
 
@@ -119,7 +119,7 @@ BOARD_HAVE_QCOM_FM := true
 BOARD_HAS_QCA_FM_SOC := cherokee
 
 # FOD
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.a70q
+TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.a80
 
 # Graphics
 MAX_VIRTUAL_DISPLAY_DIMENSION := 4096
@@ -147,8 +147,8 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_a70q
-TARGET_RECOVERY_DEVICE_MODULES := libinit_a70q
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_a80
+TARGET_RECOVERY_DEVICE_MODULES := libinit_a80
 
 # Keymaster
 TARGET_KEYMASTER_VARIANT := samsung
@@ -203,7 +203,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 BOARD_ROOT_EXTRA_FOLDERS := efs omr
 
 # Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_a70q
+TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_a80
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # RIL
@@ -241,4 +241,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/samsung/a70q/BoardConfigVendor.mk
+-include vendor/samsung/a80/BoardConfigVendor.mk
