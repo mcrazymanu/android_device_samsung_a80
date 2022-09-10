@@ -13,8 +13,8 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.lineage.livedisplay@2.0-service.samsung-a80",
-    init_rc: ["vendor.lineage.livedisplay@2.0-service.samsung-a80.rc"],
+    name: "vendor.lineage.livedisplay@2.0-service.samsung-r1q",
+    init_rc: ["vendor.lineage.livedisplay@2.0-service.samsung-r1q.rc"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     srcs: [
