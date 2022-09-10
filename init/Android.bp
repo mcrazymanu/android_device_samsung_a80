@@ -15,10 +15,10 @@
 //
 
 cc_library_static {
-    name: "libinit_a80",
+    name: "libinit_r1q",
     recovery_available: true,
     srcs: [
-        "init_a80.cpp",
+        "init_r1q.cpp",
     ],
     include_dirs: [
         "system/libbase/include",
