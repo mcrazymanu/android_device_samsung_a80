@@ -5,7 +5,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/a80/a80-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/r1q/r1q-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -71,7 +71,7 @@ PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl \
     android.hardware.audio.service \
     android.hardware.audio@6.0 \
-    android.hardware.audio@6.0-impl.a80 \
+    android.hardware.audio@6.0-impl.r1q \
     android.hardware.audio.effect@6.0 \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.bluetooth.audio@2.0-impl \
@@ -173,7 +173,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    vendor.samsung.hardware.biometrics.fingerprint@3.0-service.a80
+    vendor.samsung.hardware.biometrics.fingerprint@3.0-service.r1q
 
 # FM
 # PRODUCT_PACKAGES += \
@@ -249,7 +249,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-a80
+    vendor.lineage.livedisplay@2.0-service.samsung-r1q
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -347,7 +347,7 @@ PRODUCT_PACKAGES += \
     init.vendor.rilcommon.rc \
     ueventd.qcom.rc \
     wifi_qcom.rc \
-    wifi_a80.rc
+    wifi_r1q.rc
 
 # RCS
 PRODUCT_PACKAGES += \
