@@ -10,15 +10,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# Inherit from a80 device
-$(call inherit-product, device/samsung/a80/device.mk)
+# Inherit from r1q device
+$(call inherit-product, device/samsung/r1q/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_a80
-PRODUCT_DEVICE := a80
+PRODUCT_NAME := lineage_r1q
+PRODUCT_DEVICE := r1q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A805
 PRODUCT_MANUFACTURER := samsung
