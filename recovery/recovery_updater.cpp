@@ -58,5 +58,5 @@ Value *VerifyBootloader(const char *name, State *state,
 }
 
 void Register_librecovery_updater_a70q() {
-  RegisterFunction("a80.verify_bootloader", VerifyBootloader);
+  RegisterFunction("r1q.verify_bootloader", VerifyBootloader);
 }

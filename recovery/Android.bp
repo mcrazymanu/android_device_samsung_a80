@@ -15,7 +15,7 @@
 //
 
 cc_library_static {
-    name: "librecovery_updater_a80",
+    name: "librecovery_updater_r1q",
     srcs: [
         "recovery_updater.cpp",
     ],
