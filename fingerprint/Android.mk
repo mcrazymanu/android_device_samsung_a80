@@ -36,7 +36,7 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_MODULE := vendor.samsung.hardware.biometrics.fingerprint@3.0-service.a80
 LOCAL_INIT_RC := vendor.samsung.hardware.biometrics.fingerprint@3.0-service.a80.rc
-LOCAL_VINTF_FRAGMENTS := vendor.samsung.hardware.biometrics.fingerprint@3.0-service.a80.xml
+LOCAL_VINTF_FRAGMENTS := vendor.samsung.hardware.biometrics.fingerprint@3.0-service.r1q.xml
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := samsung
